@@ -27,14 +27,11 @@ digraph {
 ### 図 3.3 有向グラフ(双方向)
 
 ```graphviz
-digraph {
+graph {
     rankdir="LR";
     node [shape=box];
-    日本 -> 中国;
-    中国 -> 日本;
-    商店 -> 客;
-    客 -> 商店;
-    D企業 -> S企業 [dir=both];
+    高校 -- 生徒;
+    大学 -- 学生; 
 }
 ```
 
